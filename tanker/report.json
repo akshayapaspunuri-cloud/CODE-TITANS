@@ -1,0 +1,432 @@
+{
+ "bench": "tanker",
+ "adapter": "adapters.mine:MySolver",
+ "budget_scale": 1.0,
+ "records": [
+  {
+   "name": "tanker-01",
+   "family": "uniform",
+   "shifted": false,
+   "size": 40,
+   "digest": "6585d96562746073",
+   "adapter": "adapters.mine:MySolver",
+   "budget_s": 6.0,
+   "history": [
+    [
+     0.005444,
+     6325
+    ]
+   ],
+   "checkpoint_costs": [
+    6325,
+    6325,
+    6325,
+    6325
+   ],
+   "final_cost": 6325,
+   "accepted": 940,
+   "rejected": 0,
+   "reasons": [],
+   "overrun": false,
+   "crashed": false,
+   "error": null,
+   "wall_s": 5.121
+  },
+  {
+   "name": "tanker-02",
+   "family": "uniform",
+   "shifted": false,
+   "size": 70,
+   "digest": "4339088008a4f82f",
+   "adapter": "adapters.mine:MySolver",
+   "budget_s": 6.0,
+   "history": [
+    [
+     0.011689,
+     10061
+    ],
+    [
+     0.013672,
+     9996
+    ],
+    [
+     0.014732,
+     9973
+    ],
+    [
+     0.019397,
+     9882
+    ],
+    [
+     0.033938,
+     9873
+    ],
+    [
+     0.138383,
+     9811
+    ]
+   ],
+   "checkpoint_costs": [
+    9811,
+    9811,
+    9811,
+    9811
+   ],
+   "final_cost": 9811,
+   "accepted": 578,
+   "rejected": 0,
+   "reasons": [],
+   "overrun": false,
+   "crashed": false,
+   "error": null,
+   "wall_s": 5.091
+  },
+  {
+   "name": "tanker-03",
+   "family": "uniform",
+   "shifted": false,
+   "size": 110,
+   "digest": "98b516fe635c2ae2",
+   "adapter": "adapters.mine:MySolver",
+   "budget_s": 6.0,
+   "history": [
+    [
+     0.030407,
+     11959
+    ],
+    [
+     0.039552,
+     11686
+    ],
+    [
+     0.068763,
+     11627
+    ],
+    [
+     0.314487,
+     11584
+    ],
+    [
+     0.337784,
+     11533
+    ],
+    [
+     0.361615,
+     11526
+    ],
+    [
+     0.747659,
+     11512
+    ],
+    [
+     0.780663,
+     11509
+    ]
+   ],
+   "checkpoint_costs": [
+    11627,
+    11509,
+    11509,
+    11509
+   ],
+   "final_cost": 11509,
+   "accepted": 225,
+   "rejected": 0,
+   "reasons": [],
+   "overrun": false,
+   "crashed": false,
+   "error": null,
+   "wall_s": 5.045
+  },
+  {
+   "name": "tanker-04",
+   "family": "uniform",
+   "shifted": false,
+   "size": 150,
+   "digest": "13345f098aa96a56",
+   "adapter": "adapters.mine:MySolver",
+   "budget_s": 6.0,
+   "history": [
+    [
+     0.052501,
+     14664
+    ],
+    [
+     0.076246,
+     14658
+    ],
+    [
+     0.119952,
+     14635
+    ],
+    [
+     0.822458,
+     14591
+    ],
+    [
+     1.109073,
+     14557
+    ]
+   ],
+   "checkpoint_costs": [
+    14635,
+    14557,
+    14557,
+    14557
+   ],
+   "final_cost": 14557,
+   "accepted": 144,
+   "rejected": 0,
+   "reasons": [],
+   "overrun": false,
+   "crashed": false,
+   "error": null,
+   "wall_s": 5.24
+  },
+  {
+   "name": "tanker-05",
+   "family": "clustered-tight",
+   "shifted": true,
+   "size": 60,
+   "digest": "6bf5303dc8dbb2e0",
+   "adapter": "adapters.mine:MySolver",
+   "budget_s": 6.0,
+   "history": [
+    [
+     0.009085,
+     11029
+    ],
+    [
+     0.010906,
+     10994
+    ],
+    [
+     0.015251,
+     10952
+    ],
+    [
+     0.023908,
+     10933
+    ],
+    [
+     0.046183,
+     10838
+    ],
+    [
+     0.048404,
+     10828
+    ],
+    [
+     0.05049,
+     10826
+    ],
+    [
+     0.060065,
+     10794
+    ],
+    [
+     0.07511,
+     10792
+    ],
+    [
+     0.081391,
+     10754
+    ],
+    [
+     0.098375,
+     10752
+    ],
+    [
+     0.101878,
+     10643
+    ],
+    [
+     0.113281,
+     10575
+    ],
+    [
+     0.131933,
+     10556
+    ],
+    [
+     0.153887,
+     10552
+    ],
+    [
+     0.171003,
+     10548
+    ],
+    [
+     0.186981,
+     10544
+    ],
+    [
+     0.278144,
+     10538
+    ],
+    [
+     0.285361,
+     10502
+    ],
+    [
+     0.293791,
+     10500
+    ],
+    [
+     0.305126,
+     10488
+    ],
+    [
+     0.310415,
+     10388
+    ],
+    [
+     0.317008,
+     10380
+    ],
+    [
+     0.459948,
+     10379
+    ],
+    [
+     0.467382,
+     10376
+    ],
+    [
+     0.579561,
+     10372
+    ]
+   ],
+   "checkpoint_costs": [
+    10500,
+    10372,
+    10372,
+    10372
+   ],
+   "final_cost": 10372,
+   "accepted": 1157,
+   "rejected": 0,
+   "reasons": [],
+   "overrun": false,
+   "crashed": false,
+   "error": null,
+   "wall_s": 5.031
+  },
+  {
+   "name": "tanker-06",
+   "family": "clustered-tight",
+   "shifted": true,
+   "size": 120,
+   "digest": "2d27d5c5056ab14e",
+   "adapter": "adapters.mine:MySolver",
+   "budget_s": 6.0,
+   "history": [
+    [
+     0.025794,
+     21603
+    ],
+    [
+     0.029724,
+     21602
+    ],
+    [
+     0.034772,
+     21582
+    ],
+    [
+     0.042138,
+     21578
+    ],
+    [
+     0.050632,
+     21549
+    ],
+    [
+     0.061732,
+     21546
+    ],
+    [
+     0.075009,
+     21536
+    ],
+    [
+     0.088645,
+     21488
+    ],
+    [
+     0.103953,
+     21450
+    ],
+    [
+     0.120133,
+     21434
+    ],
+    [
+     0.127992,
+     21374
+    ],
+    [
+     0.134609,
+     21346
+    ],
+    [
+     0.138016,
+     21312
+    ],
+    [
+     0.144836,
+     21311
+    ],
+    [
+     0.151658,
+     21253
+    ],
+    [
+     0.160439,
+     21213
+    ],
+    [
+     0.171426,
+     21183
+    ],
+    [
+     0.182465,
+     21175
+    ]
+   ],
+   "checkpoint_costs": [
+    21175,
+    21175,
+    21175,
+    21175
+   ],
+   "final_cost": 21175,
+   "accepted": 435,
+   "rejected": 0,
+   "reasons": [],
+   "overrun": false,
+   "crashed": false,
+   "error": null,
+   "wall_s": 5.117
+  }
+ ],
+ "points": {
+  "scores": {
+   "tanker-01": 1.0,
+   "tanker-02": 0.9471428571428571,
+   "tanker-03": 0.9618053673082136,
+   "tanker-04": 0.9441043751226212,
+   "tanker-05": 0.9404347826086956,
+   "tanker-06": 0.9063097514340345
+  },
+  "family_means": {
+   "uniform": 0.963263149893423,
+   "clustered-tight": 0.9233722670213651
+  },
+  "robustness_halved": false,
+  "quality": 66.49763322552492,
+  "robustness": 18.467445340427304,
+  "engineering": 10.0,
+  "total": 94.96507856595223
+ }
+}

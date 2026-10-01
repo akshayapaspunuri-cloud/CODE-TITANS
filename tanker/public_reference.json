@@ -1,0 +1,154 @@
+{
+ "budgets": {
+  "tanker-01": 6.0,
+  "tanker-02": 6.0,
+  "tanker-03": 6.0,
+  "tanker-04": 6.0,
+  "tanker-05": 6.0,
+  "tanker-06": 6.0
+ },
+ "generator_schema": 1,
+ "instances": {
+  "tanker-01": {
+   "baseline_costs": [
+    6970,
+    6970,
+    6970,
+    6970
+   ],
+   "digest": "6585d96562746073",
+   "family": "uniform",
+   "reference_cost": 6325,
+   "shifted": false,
+   "spreads": {
+    "baseline": 0,
+    "reference": 0,
+    "starter": 0
+   },
+   "starter_costs": [
+    7383,
+    7383,
+    7383,
+    7383
+   ]
+  },
+  "tanker-02": {
+   "baseline_costs": [
+    10437,
+    10437,
+    10437,
+    10437
+   ],
+   "digest": "4339088008a4f82f",
+   "family": "uniform",
+   "reference_cost": 9737,
+   "shifted": false,
+   "spreads": {
+    "baseline": 0,
+    "reference": 0,
+    "starter": 0
+   },
+   "starter_costs": [
+    13283,
+    13283,
+    13283,
+    13283
+   ]
+  },
+  "tanker-03": {
+   "baseline_costs": [
+    14928,
+    14928,
+    14928,
+    14928
+   ],
+   "digest": "98b516fe635c2ae2",
+   "family": "uniform",
+   "reference_cost": 11239,
+   "shifted": false,
+   "spreads": {
+    "baseline": 0,
+    "reference": 0,
+    "starter": 0
+   },
+   "starter_costs": [
+    16961,
+    16961,
+    16961,
+    16961
+   ]
+  },
+  "tanker-04": {
+   "baseline_costs": [
+    19092,
+    19092,
+    19092,
+    19092
+   ],
+   "digest": "13345f098aa96a56",
+   "family": "uniform",
+   "reference_cost": 13995,
+   "shifted": false,
+   "spreads": {
+    "baseline": 0,
+    "reference": 0,
+    "starter": 0
+   },
+   "starter_costs": [
+    20990,
+    20990,
+    20990,
+    20990
+   ]
+  },
+  "tanker-05": {
+   "baseline_costs": [
+    10790,
+    10790,
+    10790,
+    10790
+   ],
+   "digest": "6bf5303dc8dbb2e0",
+   "family": "clustered-tight",
+   "reference_cost": 10330,
+   "shifted": true,
+   "spreads": {
+    "baseline": 0,
+    "reference": 0,
+    "starter": 0
+   },
+   "starter_costs": [
+    12525,
+    12525,
+    12525,
+    12525
+   ]
+  },
+  "tanker-06": {
+   "baseline_costs": [
+    22875,
+    22875,
+    22875,
+    22875
+   ],
+   "digest": "2d27d5c5056ab14e",
+   "family": "clustered-tight",
+   "reference_cost": 20783,
+   "shifted": true,
+   "spreads": {
+    "baseline": 0,
+    "reference": 0,
+    "starter": 0
+   },
+   "starter_costs": [
+    23996,
+    23996,
+    23996,
+    23996
+   ]
+  }
+ },
+ "reference_scale": 10,
+ "repeats": 3,
+ "schema": 1
+}
